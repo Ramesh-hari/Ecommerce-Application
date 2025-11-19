@@ -1,12 +1,13 @@
 # E-commerce Web Application https://img.shields.io/badge/Java
 
+<div align="center">
 ## Badges
+</div>
 ![React](https://img.shields.io/badge/React-19-blue?logo=react&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.6-brightgreen?logo=springboot&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)
 
-🌐 Live Demo 
-https://singular-cajeta-a14474.netlify.app/
+[🌐 Live Demo] (https://singular-cajeta-a14474.netlify.app/)
 ##
 A modern e-commerce application that allows users to browse products, manage a shopping cart, and place orders. Includes secure authentication and a dedicated admin panel to manage products and orders.
 

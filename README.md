@@ -5,12 +5,13 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.6-brightgreen?logo=springboot&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)
 
-🌐 Live Demo
+🌐 Live Demo 
+https://singular-cajeta-a14474.netlify.app/
 ##
 A modern e-commerce application that allows users to browse products, manage a shopping cart, and place orders. Includes secure authentication and a dedicated admin panel to manage products and orders.
 
-##✨ Key Features
-###For Customers
+## ✨ Key Features
+### For Customers
 - User Registration & Login – JWT-secured authentication
 - Product Browsing – View, filter, and search products
 - Shopping Cart – Add, update, and remove products with automatic total calculation

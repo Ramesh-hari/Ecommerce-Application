@@ -1,8 +1,6 @@
-# E-commerce Web Application https://img.shields.io/badge/Java
+# E-commerce Web Application
 
-<div align="center">
 ## Badges
-</div>
 ![React](https://img.shields.io/badge/React-19-blue?logo=react&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.6-brightgreen?logo=springboot&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)
@@ -19,43 +17,43 @@ A modern e-commerce application that allows users to browse products, manage a s
 - Order Creation – Place orders from the cart
 - Profile Management – Update personal details
 
-For Admins
-🛠️ Admin Dashboard – Manage products and orders
-➕ Product CRUD – Add, edit, and delete products
-📋 Order Management – View and manage customer orders
-🔐 Role-Based Access – Admin-only functionalities protected by JWT
+### For Admins
+- Admin Dashboard – Manage products and orders
+- Product CRUD – Add, edit, and delete products
+- Order Management – View and manage customer orders
+- Role-Based Access – Admin-only functionalities protected by JWT
 
-🧩 Modules Overview
-1. User Module
-•Register and log in securely
-•Password hashing using bcrypt
-•Role-based access (Customer / Admin)
-•Update profile information
+## 🧩 Modules Overview
+### User Module
+-Register and log in securely
+-Password hashing using bcrypt
+-Role-based access (Customer / Admin)
+-Update profile information
 
-2. Product Module
-•Admin can add/edit/delete products
-•Product details include: name, price, description, image
-•Users can browse and search products easily
+### Product Module
+-Admin can add/edit/delete products
+-Product details include: name, price, description, image
+-Users can browse and search products easily
 
-3. Cart Module
-•Add items to cart
-•Update quantity
-•Remove items
-•Auto total calculation
-•Cart persists during session
+### Cart Module
+-Add items to cart
+-Update quantity
+-Remove items
+-Auto total calculation
+-Cart persists during session
 
-4. Order Module
-•Convert cart items into an order
-•Store order details
-•Users can view order history
-•Admins can track all orders
+### Order Module
+-Convert cart items into an order
+-Store order details
+-Users can view order history
+-Admins can track all orders
 
-🛠️ Tech Stack
-•Frontend: React 19, CSS, React Router v6, React Hook Form
-•Backend: Spring Boot 3.5.6, REST API, MySQL Database
-•Security: JWT Authentication, bcrypt password hashing
+## Tech Stack
+-Frontend: React 19, CSS, React Router v6, React Hook Form
+-Backend: Spring Boot 3.5.6, REST API, MySQL Database
+-Security: JWT Authentication, bcrypt password hashing
 
-🏗️ Project Architecture
+##🏗️ Project Architecture
 src/
 ├── components/
 │   └── layout/
@@ -77,7 +75,7 @@ src/
 ├── App.css
 └── App.jsx
 
-🚀 Deployment
-Frontend: Netlify
-Backend: Railway
-Database: MySQL (Railway)
+## Deployment
+-Frontend: Netlify
+-Backend: Railway
+-Database: MySQL (Railway)

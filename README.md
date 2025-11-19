@@ -5,9 +5,13 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.6-brightgreen?logo=springboot&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)
 
-[🌐 Live Demo] (https://singular-cajeta-a14474.netlify.app/)
+[🌐 Live Demo](https://singular-cajeta-a14474.netlify.app/)
 ##
-A modern e-commerce application that allows users to browse products, manage a shopping cart, and place orders. Includes secure authentication and a dedicated admin panel to manage products and orders.
+
+A modern e-commerce application that allows users to browse products, manage a shopping cart, and place orders. Includes secure authentication and a dedicated 
+admin panel to manage products and orders.
+
+##
 
 ## ✨ Key Features
 ### For Customers
@@ -25,57 +29,61 @@ A modern e-commerce application that allows users to browse products, manage a s
 
 ## 🧩 Modules Overview
 ### User Module
--Register and log in securely
--Password hashing using bcrypt
--Role-based access (Customer / Admin)
--Update profile information
+- Register and log in securely
+- Password hashing using bcrypt
+- Role-based access (Customer / Admin)
+- Update profile information
 
 ### Product Module
--Admin can add/edit/delete products
--Product details include: name, price, description, image
--Users can browse and search products easily
+- Admin can add/edit/delete products
+- Product details include: name, price, description, image
+- Users can browse and search products easily
 
 ### Cart Module
--Add items to cart
--Update quantity
--Remove items
--Auto total calculation
--Cart persists during session
+- Add items to cart
+- Update quantity
+- Remove items
+- Auto total calculation
+- Cart persists during session
 
 ### Order Module
--Convert cart items into an order
--Store order details
--Users can view order history
--Admins can track all orders
+- Convert cart items into an order
+- Store order details
+- Users can view order history
+- Admins can track all orders
 
 ## Tech Stack
--Frontend: React 19, CSS, React Router v6, React Hook Form
--Backend: Spring Boot 3.5.6, REST API, MySQL Database
--Security: JWT Authentication, bcrypt password hashing
+- Frontend: React 19, CSS, React Router v6, React Hook Form
+- Backend: Spring Boot 3.5.6, REST API, MySQL Database
+- Security: JWT Authentication, bcrypt password hashing
 
-##🏗️ Project Architecture
-src/
-├── components/
-│   └── layout/
-│       └── RootLayout.jsx
+## 🏗️ Project Structure
+
+**```bash**
+
+- **src/**
+- **component/**             # Reusable UI components
+│   └── layout/               # Shared layout / wrapper components
+│       └── RootLayout.jsx    # Base layout used across routes
 │
-├── pages/
-│   ├── Register.jsx
-│   ├── Login.jsx
-│   ├── Home.jsx
-│   ├── AdminPage.jsx
-│   ├── ProductCard.jsx
-│   ├── ViewProduct.jsx
-│   ├── EditProductPage.jsx
-│   ├── DeleteProductPage.jsx
-│   ├── CartPage.jsx
-│   ├── CheckoutPage.jsx
-│   └── UserProfileUpdate.jsx
+├── pages/                    # All application pages (route-level components)
+│   ├── Register.jsx          # User registration page
+│   ├── Login.jsx             # User login page
+│   ├── Home.jsx              # Landing/home page
+│   ├── AdminPage.jsx         # Admin dashboard for managing products/users
+│   ├── ProductCard.jsx       # UI card for displaying product details
+│   ├── ViewProduct.jsx       # Single product view page
+│   ├── EditProductPage.jsx   # Product editing page
+│   ├── DeleteProductPage.jsx # Product deletion confirmation/logic
+│   ├── CartPage.jsx          # User shopping cart page
+│   ├── CheckoutPage.jsx      # Checkout and order summary
+│   └── UserProfileUpdate.jsx # Profile update/edit page
 │
-├── App.css
-└── App.jsx
+├── App.css                   # Global app styling
+└── App.jsx                   # Application root component
+
 
 ## Deployment
--Frontend: Netlify
--Backend: Railway
--Database: MySQL (Railway)
+- Frontend: Netlify
+- Backend: Railway
+- Database: MySQL (Railway)
